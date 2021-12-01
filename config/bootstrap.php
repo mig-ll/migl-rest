@@ -1,7 +1,7 @@
 <?php
 
 use Cake\Event\EventManager;
-use Rest\Error\RestErrorHandleMiddleware;
+use Migl\Rest\Error\RestErrorHandleMiddleware;
 
 /**
  * Add the custom Rest Error Handler Middleware

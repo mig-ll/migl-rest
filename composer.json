@@ -1,6 +1,6 @@
 {
     "name": "migl/rest",
-    "description": "Rest plugin for CakePHP 4",
+    "description": "CakePHP 3.6+ Plugin for REST API Implementation",
     "type": "cakephp-plugin",
     "authors": [
         {
@@ -9,25 +9,25 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=5.4.16",
         "cakephp/plugin-installer": "*",
-        "cakephp/cakephp": "^4.3",
+        "cakephp/cakephp": "3.7.*|3.8.*",
         "firebase/php-jwt": "~3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
         "cakephp/plugin-installer": "*",
-        "cakephp/cakephp": "^4.3",
+        "cakephp/cakephp": "3.7.*",
         "firebase/php-jwt": "~3.0"
     },
     "autoload": {
         "psr-4": {
-            "Rest\\": "src"
+            "Migl\\Rest\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rest\\Test\\": "tests"
+            "Migl\\Rest\\Test\\": "tests"
         }
     }
 }
